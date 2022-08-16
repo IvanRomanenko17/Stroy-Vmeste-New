@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Gotham Pro' ;
+    src: url(./fonts/gothampro.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url(./fonts/gothampro_bold.ttf);
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -10,7 +20,7 @@
 }
 
 h2 {
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -34,8 +44,18 @@ h3 {
 
 
 
+/* offer */
+.offer {
+    margin-top: 26px;
+    margin-bottom: 100px;
+}
+
+
+
+
 /* design */
 .design {
+    margin-bottom: 100px;
 }
 
 .design__container {
@@ -45,8 +65,20 @@ h3 {
     width: 100%;
 }
 .design__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     max-width: 664px;
     width: 100%;
+}
+
+.design__title {
+    margin-bottom: 50px;
+}
+
+.design__subtitle {
+    margin-bottom: 50px;
 }
 
 .design__button {
@@ -73,6 +105,7 @@ h3 {
 
 /* product */
 .product {
+    margin-bottom: 100px;
 }
 .product__image {
 }
@@ -83,11 +116,12 @@ h3 {
 
 /* complectation */
 .complectation {
+    margin-bottom: 100px;
 }
 
 .complectation__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-width: 1320px;
     width: 100%;
 }
@@ -96,12 +130,19 @@ h3 {
 .complectation__image_img {
 }
 .complectation__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     max-width: 606px;
     width: 100%;
+    margin-left: 114px;
 }
 .complectation__title {
+    margin-bottom: 59px;
 }
 .complectation__subtitle {
+    margin-bottom: 71px;
 }
 .complectation__button {
     width: 128px;
@@ -123,6 +164,7 @@ h3 {
 
 /* brands */
 .brands {
+    margin-bottom: 100px;
 }
 .brands__image {
 }
@@ -133,6 +175,7 @@ h3 {
 
 /* designers */
 .designers {
+    margin-bottom: 100px;
 }
 
 .designers__container {
@@ -148,10 +191,16 @@ h3 {
 .designers__text {
     max-width: 716px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .designers__title {
+    margin-bottom: 66px;
 }
 .designers__subtitle {
+    margin-bottom: 35px;
 }
 .designers__button {
     width: 128px;
