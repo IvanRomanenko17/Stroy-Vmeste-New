@@ -9,9 +9,16 @@
 }
 
 .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .container {
@@ -25,8 +32,12 @@ h2 {
     font-weight: 700;
     font-size: 28px;
     line-height: 27px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #000000;
 }
 
@@ -36,13 +47,15 @@ h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 125%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     letter-spacing: 0.02em;
     color: #1F1F1F;
 }
-
-
 
 /* offer */
 .offer {
@@ -50,25 +63,35 @@ h3 {
     margin-bottom: 100px;
 }
 
-
-
-
 /* design */
 .design {
     margin-bottom: 100px;
 }
 
 .design__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     min-width: 1320px;
     width: 100%;
 }
 .design__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     max-width: 664px;
     width: 100%;
 }
@@ -96,23 +119,11 @@ h3 {
     line-height: 13px;
     color: #FFFFFF;
 }
-.design__image {
-}
-.design__image_img {
-}
-
-
 
 /* product */
 .product {
     margin-bottom: 100px;
 }
-.product__image {
-}
-.product__image_img {
-}
-
-
 
 /* complectation */
 .complectation {
@@ -120,30 +131,43 @@ h3 {
 }
 
 .complectation__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     min-width: 1320px;
     width: 100%;
 }
-.complectation__image {
-}
-.complectation__image_img {
-}
+
 .complectation__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     max-width: 606px;
     width: 100%;
     margin-left: 114px;
 }
+
 .complectation__title {
     margin-bottom: 59px;
 }
+
 .complectation__subtitle {
     margin-bottom: 71px;
 }
+
 .complectation__button {
     width: 128px;
     height: 40px;
@@ -160,18 +184,10 @@ h3 {
     color: #FFFFFF;
 }
 
-
-
 /* brands */
 .brands {
     margin-bottom: 100px;
 }
-.brands__image {
-}
-.brands__image_img {
-}
-
-
 
 /* designers */
 .designers {
@@ -179,22 +195,32 @@ h3 {
 }
 
 .designers__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     min-width: 1320px;
     width: 100%;
 }
-.designers__image {
-}
-.designers__image_img {
-}
+
 .designers__text {
     max-width: 716px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .designers__title {
     margin-bottom: 66px;
