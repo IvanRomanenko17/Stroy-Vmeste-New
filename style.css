@@ -1,0 +1,170 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+}
+
+
+
+/* design */
+.design {
+}
+
+.design__container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1320px;
+    width: 100%;
+}
+.design__text {
+    max-width: 664px;
+    width: 100%;
+}
+
+.design__button {
+    width: 128px;
+    height: 40px;
+    left: 903px;
+    top: 1717px;
+    background: #336466;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+.design__image {
+}
+.design__image_img {
+}
+
+
+
+/* product */
+.product {
+}
+.product__image {
+}
+.product__image_img {
+}
+
+
+
+/* complectation */
+.complectation {
+}
+
+.complectation__container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1320px;
+    width: 100%;
+}
+.complectation__image {
+}
+.complectation__image_img {
+}
+.complectation__text {
+    max-width: 606px;
+    width: 100%;
+}
+.complectation__title {
+}
+.complectation__subtitle {
+}
+.complectation__button {
+    width: 128px;
+    height: 40px;
+    left: 903px;
+    top: 1717px;
+    background: #336466;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+
+
+/* brands */
+.brands {
+}
+.brands__image {
+}
+.brands__image_img {
+}
+
+
+
+/* designers */
+.designers {
+}
+
+.designers__container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1320px;
+    width: 100%;
+}
+.designers__image {
+}
+.designers__image_img {
+}
+.designers__text {
+    max-width: 716px;
+    width: 100%;
+}
+.designers__title {
+}
+.designers__subtitle {
+}
+.designers__button {
+    width: 128px;
+    height: 40px;
+    left: 903px;
+    top: 1717px;
+    background: #336466;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
