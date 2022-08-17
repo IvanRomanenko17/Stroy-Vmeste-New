@@ -13,50 +13,79 @@
     src: url(./fonts/gothampro.ttf);
 }
 
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url(./fonts/gothampro_bold.ttf);
+}
+
+h2 {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .complectation {
-    margin-bottom: 100px;
 }
-
 .complectation__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    min-width: 1320px;
+    align-items: center;
+    max-width: 1320px;
     width: 100%;
+    justify-content: space-between;
 }
-
 .complectation__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    max-width: 606px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 640px;
     width: 100%;
-    margin-left: 114px;
+    height: 315px;
 }
-
 .complectation__title {
-    margin-bottom: 59px;
+    margin-bottom: 48px;
 }
-
 .complectation__subtitle {
-    margin-bottom: 71px;
+    margin-bottom: 46px;
 }
-
 .complectation__button {
-    width: 128px;
+    width: 164px;
     height: 40px;
     left: 903px;
     top: 1717px;
@@ -71,6 +100,11 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.complectation__image {
+}
+.complectation__image_img {
+}
+
     </style>
 </head>
 <body>
@@ -80,8 +114,8 @@
             <div class="complectation__container">
                 <div class="complectation__text">
                     <h2 class="complectation__title">Комплектация по вашему проекту</h2>
-                    <h3 class="complectation__subtitle">Для возведения объекта либо его ремонта, ключевую роль играет выбор необходимых элементов и материалов. Наша команда подберет под ключ чистовые материалы, любой тип мебели, технику, сантехническое оборудование, а также фурнитуру и декор. Мы работаем в ценовом сегремнте от среднего до премиум.</h3>
-                    <button class="complectation__button">Подробнее</button>
+                    <h3 class="complectation__subtitle">Для возведения объекта либо его ремонта, ключевую роль играет<br>выбор необходимых элементов и материалов. Наша команда подберет под ключ чистовые материалы, любой тип мебели, технику, сантехническое оборудование, а также фурнитуру и декор. Мы<br>работаем в ценовом сегремнте от среднего до премиум.</h3>
+                    <button class="complectation__button">Связаться с нами</button>
                 </div>
                 <div class="complectation__image">
                     <img src="./image/complectation__image.png" alt="complectation" class="complectation__image_img">
