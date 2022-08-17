@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../fonts/gothampro.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url(../fonts/gothampro_bold.ttf);
+}
+
+h1 {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41.8047px;
+    line-height: 111.7%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    display: flex;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.6186px;
+    line-height: 111.7%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.condition {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.condition__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1320px;
+    width: 100%;
+    align-items: flex-start;
+}
+.condition__banner {
+    margin-bottom: 86px;
+}
+.condition__banner_image {
+}
+.condition__title {
+    margin-bottom: 55px;
+}
+.condition__discount {
+    display: flex;
+    margin-bottom: 30px;
+}
+.condition__discount_personal {
+    position: relative;
+    width: 409px;
+    height: 216px;
+    background: #E7DCD3;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.condition__discount_personal_title {
+    position: absolute;
+    top: 26px;
+    left: 23px;
+}
+
+.condition__discount_personal_percent {
+    position: absolute;
+    top: 80px;
+    left: 285px;
+}
+.condition__discount_service {
+    position: relative;
+    width: 409px;
+    height: 97px;
+    background: #E7DCD3;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.condition__discount_service_title {
+    position: absolute;
+    top: 28px;
+    left: 29px;
+}
+
+.condition__discount_service_truck {
+    position: absolute;
+    top: 15px;
+    left: 263px;
+}
+.condition__discount_manager {
+    position: relative;
+    width: 409px;
+    height: 97px;
+    background: #E7DCD3;
+    border-radius: 10px;
+}
+
+.condition__discount_manager_title {
+    position: absolute;
+    left: 63px;
+    top: 28px;
+}
+
+.condition__discount_manager_documents {
+    position: absolute;
+    left: 284px;
+    top: 11px;
+}
+.condition__button {
+}
+.condition__button_btn {
+    width: 164px;
+    height: 40px;
+    background: #336466;
+    border-radius: 5px;
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <section class="condition">
+        <div class="condition__container">
+
+            <div class="condition__banner">
+                <img src="./image/conditions__banner.png" alt="condition" class="condition__banner_image">
+            </div>
+
+            <h2 class="condition__title">Особые условия для профессионалов<br>Дизайнерам, архитекторам, дизайн-студиям</h2>
+
+            <div class="condition__content">
+                <div class="condition__discount">
+                    <div class="condition__discount_personal">
+                        <h1 class="condition__discount_personal_title" >Персональная скидка</h1>
+                        <img src="./image/conditions__image_percent.svg" alt="" class="condition__discount_personal_percent">
+                    </div>
+    
+                    <div class="condition__discount_service">
+                        <h4 class="condition__discount_service_title" >Складские<br>услуги</h4>
+                        <img src="./image/conditions__image_truck.svg" alt="truck" class="condition__discount_service_truck">
+                    </div>
+    
+                    <div class="condition__discount_manager">
+                        <h4 class="condition__discount_manager_title" >Личный<br>менеджер</h4>
+                        <img src="./image/conditions__image_documents.svg" alt="truck" class="condition__discount_manager_documents">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="condition__button">
+                <button class="condition__button_btn">
+                    Связаться с нами
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
