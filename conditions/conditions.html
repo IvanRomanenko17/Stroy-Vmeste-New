@@ -21,8 +21,12 @@ h1 {
     font-weight: 400;
     font-size: 41px;
     line-height: 111%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #000000;
     margin: 0;
     padding: 0;
@@ -34,8 +38,12 @@ h2 {
     font-weight: 700;
     font-size: 28px;
     line-height: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #333333;
     margin: 0;
     padding: 0;
@@ -47,6 +55,8 @@ h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 125%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     letter-spacing: 0.02em;
     color: #1F1F1F;
@@ -60,8 +70,12 @@ h4 {
     font-weight: 400;
     font-size: 21.6186px;
     line-height: 111.7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #000000;
     margin: 0;
     padding: 0;
@@ -69,35 +83,54 @@ h4 {
 
 .container {
     margin-top: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     max-width: 1320px;
     width: 100%;
 }
 
 .condition {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 26px;
 }
 .condition__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 1320px;
     width: 100%;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .condition__banner {
     margin-bottom: 86px;
-}
-.condition__banner_image {
 }
 .condition__title {
     margin-bottom: 55px;
 }
 .condition__discount {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 30px;
 }
@@ -160,8 +193,7 @@ h4 {
     left: 284px;
     top: 11px;
 }
-.condition__button {
-}
+
 .condition__button_btn {
     width: 164px;
     height: 40px;
@@ -176,7 +208,6 @@ h4 {
     border: none;
     cursor: pointer;
 }
-
     </style>
     <title>Document</title>
 </head>
