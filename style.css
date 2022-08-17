@@ -118,6 +118,7 @@ h3 {
     font-size: 14px;
     line-height: 13px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* product */
@@ -182,6 +183,7 @@ h3 {
     font-size: 14px;
     line-height: 13px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* brands */
@@ -242,4 +244,5 @@ h3 {
     font-size: 14px;
     line-height: 13px;
     color: #FFFFFF;
+    cursor: pointer;
 }
