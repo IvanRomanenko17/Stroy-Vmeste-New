@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../fonts/gothampro.ttf);
+    }
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url(../fonts/gothampro_bold.ttf);
+}
+
+h2 {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 121.2%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F1F1F;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 121.2%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.2%;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+.title__container{
+    max-width: 1320px;
+    width: 100%;
+}
+.title__title {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.cash {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.cash__container {
+    max-width: 1320px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 0px 10.6498px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 245px;
+}
+.cash__title {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.cash__icon {
+    margin-right: 25px;
+}
+
+.cash__subtitle {
+    margin-left: 25px;
+}
+.cash__subtitle_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 121.2%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+}
+.non-cash {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.non-cash__container {
+    max-width: 1320px;
+    width: 100%;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 0px 10.6498px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 380px;
+}
+.non-cash__title {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.non-cash__icon {
+    margin-right: 25px;
+}
+
+.non-cash__subtitle {
+    margin-left: 25px;
+}
+.non-cash__subtitle_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 121.2%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+}
+.delivery {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+.delivery__container {
+    max-width: 1320px;
+    width: 100%;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 0px 10.6498px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 281px;
+}
+.delivery__title {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.delivery__icon {
+    margin-right: 25px;
+}
+
+.delivery__info {
+    display: flex;
+    margin-left: 25px;
+    justify-content: flex-start;
+}
+
+.delivery__moscow_title {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 121.2%;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+.delivery__moscow_info {
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+    justify-content: space-between;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.2%;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+}
+.delivery__russia {
+    margin-left: 110px;
+}
+.delivery__russia_title {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 121.2%;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    margin-bottom: 22px;
+}
+.delivery__russia_info {
+    display: flex;
+    flex-direction: column;
+    height: 108px;
+    justify-content: space-between;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.2%;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- title -->
+    <div class="title">
+        <div class="title__container">
+            <p class="title__title">Оплата</p>
+        </div>
+    </div>
+    <!-- cash -->
+    <div class="cash">
+        <div class="cash__container">
+            <div class="cash__title">
+                <img src="./image/cash__icon.svg" alt="cash" class="cash__icon">
+                <h2 class="cash__title_text">Оплата наличными</h2>
+            </div>
+            <div class="cash__subtitle">
+                <p class="cash__subtitle_text">Расчет наличными производится сотруднику службы доставки при получении товара по<br>указанному адресу. Гарантии целости товара при транспортировке обеспечиваются службой<br>нашей доставки. Покупатель обязан получить сам товар, товарный чек, инструкцию по<br>использованию и гарантийный талон.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- non-cash -->
+    <div class="non-cash">
+        <div class="non-cash__container">
+            <div class="non-cash__title">
+                <img src="./image/non-cash__icon.svg" alt="" class="non-cash__icon">
+                <h2 class="non-cash__title_text">Безналичный расчет</h2>
+            </div>
+            <div class="non-cash__subtitle">
+                <p class="non-cash__subtitle_text">Безналичная оплата товара производится при условиях полной предоплаты. На почту заказчика<br>формируется и высылается счет по электронной почте, безналичный расчет после его<br>получения может быть осуществлен в течение трех рабочих дней. По истечении срока оплаты<br>компания не сможет гарантировать наличие заказанного вами товара.<br>
+                    <br>
+                     Предоплата за товар осуществляется на основании выписанной нами счет-фактуры, на наш<br> банковский расчетный счет. В счет-фактуре указываются все необходимые реквизиты как<br> официально зарегистрированного субъекта предпринимательской деятельности. Гарантии<br>целости товара при транспортировке обеспечиваются службой доставки.</p>
+            </div>
+        </div>
+    </div>
+    <!-- delivery -->
+    <div class="delivery">
+        <div class="delivery__container">
+            <div class="delivery__title">
+                <img src="./image/delivery__icon.svg" alt="" class="delivery__icon">
+                <h2 class="delivery__title_text">Доставка</h2>
+            </div>
+            <div class="delivery__info">
+                <div class="delivery__moscow">
+                    <p class="delivery__moscow_title">Доставка по Москве и Московской области:</p>
+                    <div class="delivery__moscow_info">
+                        <p><b>График доставок:</b>Пн-Пт: 09:00 - 20:00</p>
+                        <p><b>Доставка техники по г. Москва:</b>бесплатно</p> 
+                        <p><b> Доставка за МКАД:</b> 50 руб/км</p>
+                    </div>
+                </div>
+
+                <div class="delivery__russia">
+                    <p class="delivery__russia_title">Доставка по России:</p>
+                    <div class="delivery__russia_info">
+                        <p> <b>Осуществляется следующими транспортными<br>компаниями:</b></p>
+                        <p>Деловые Линии</p> 
+                        <p>СДЭК</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
